@@ -144,6 +144,7 @@ ul {
 }
 
 .hero {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -222,8 +223,8 @@ ul {
 .section-title {
   position: relative;
   z-index: 13;
-  margin-top: 100px;
   margin-bottom: -40px;
+  padding-top: 100px;
 }
 
 .bar-image {
@@ -631,6 +632,20 @@ ul {
   align-items: flex-start;
 }
 
+.success-message {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(218, 203, 158, 0.3);
+  background-color: #1f1f20;
+}
+
+.error-message {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dd3522;
+  background-color: #2b2c2b;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3em;
@@ -650,7 +665,6 @@ ul {
   }
 
   .nav-menu {
-    border-top: 2px solid rgba(218, 203, 158, 0.3);
     border-bottom: 2px solid rgba(218, 203, 158, 0.3);
     background-color: #2b2c2b;
     box-shadow: 0 15px 30px -15px rgba(0, 0, 0, 0.5);
@@ -666,10 +680,6 @@ ul {
 
   .about {
     padding-top: 0px;
-  }
-
-  .menu-button {
-    border-left: 2px solid rgba(218, 203, 158, 0.3);
   }
 
   .menu-button.w--open {
