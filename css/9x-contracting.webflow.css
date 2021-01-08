@@ -34,6 +34,10 @@
   border-right-color: #3898ec;
 }
 
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
 body {
   background-color: #1f1f20;
   font-family: 'Open Sans', sans-serif;
