@@ -34,10 +34,6 @@
   border-right-color: #3898ec;
 }
 
-.w-form-formrecaptcha {
-  margin-bottom: 8px;
-}
-
 body {
   background-color: #1f1f20;
   font-family: 'Open Sans', sans-serif;
@@ -822,6 +818,17 @@ ul {
 }
 
 #w-node-307c70757eac-5efce27d {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-42e2cafa32d9-5efce27d {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
